@@ -1,77 +1,51 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F2A56,100:5B6BA8&height=170&section=header&text=KPI%20System&fontSize=48&fontColor=ffffff&fontAlignY=45" width="100%"/>
 
-<div dir="rtl">
+# KPI System
 
-# نظام مؤشرات الأداء
+A complete performance-indicator system in Excel. Its core rule: **a metric is defined by output and impact, not activity** — documentation and administrative compliance are a quality gate, not a scored performance. The UI is Arabic (built Arabic-first).
 
-منظومة مؤشرات أداء كاملة في Excel، قاعدتها: المؤشر يُعرَّف من المخرجات والأثر، لا من النشاط — التوثيق والالتزام الإداري شرط جودة يُشترط، لا أداء يُكافأ بنقاط.
+Browse the sheets below, or [⬇️ download to open in Excel](https://github.com/ab1ob/barez-kpi-system/archive/refs/heads/master.zip).
 
-تصفّح الأوراق أدناه، أو [⬇️ حمّل النظام لتفتحه في Excel](https://github.com/ab1ob/barez-kpi-system/archive/refs/heads/master.zip).
+## Cockpit
 
----
+Stakeholder decision support: overall average performance, top performers, a risk list needing intervention, and a department comparison by result and impact.
 
-## لوحة القيادة
+![Cockpit](assets/01-cockpit.png)
 
-دعم قرار أصحاب المصلحة: متوسط الأداء العام، أعلى الموظفين أداءً، قائمة المخاطر التي تحتاج تدخّلاً، ومقارنة الأقسام بالنتيجة والأثر.
+## Contents
 
-![لوحة القيادة](assets/01-cockpit.png)
-
-## المنهجية
-
-المستويات الخمسة لبناء أي مؤشر، وقواعد التقييم.
-
-![المنهجية](assets/02-methodology.png)
-
-## دليل المؤشرات
-
-كل مؤشر موثّق: التعريف، طريقة الحساب، مستويات التقييم.
-
-![دليل المؤشرات](assets/03-guide.png)
-
-## مؤشرات الأقسام
-
-كل قسم بأوراقه ومؤشراته المعرّفة من المخرجات والأثر.
-
-### التسويق والمبيعات
-![التسويق والمبيعات](assets/04-sales.png)
-
-### استقطاب المواهب
-![استقطاب المواهب](assets/05-talent.png)
+| Sheet | Purpose |
+|-------|---------|
+| Cockpit | A company-wide view of performance across departments |
+| Methodology | The five levels for building any indicator, and scoring rules |
+| Indicator guide | Each metric documented: definition, calculation, scoring levels |
+| Department sheets | One sheet per department, metrics defined by output and impact |
 
 <details>
-<summary>بقية الأقسام (اضغط للعرض)</summary>
+<summary><b>View methodology & department sheets</b></summary>
 
-### التعلم والتطوير
-![التعلم والتطوير](assets/06-learning.png)
-
-### نجاح العملاء
-![نجاح العملاء](assets/07-customer.png)
-
-### تطوير البرمجيات
-![تطوير البرمجيات](assets/08-software.png)
-
-### المالية والمحاسبة
-![المالية والمحاسبة](assets/09-finance.png)
+![Methodology](assets/02-methodology.png)
+![Guide](assets/03-guide.png)
+![Sales](assets/04-sales.png)
+![Talent](assets/05-talent.png)
+![Learning](assets/06-learning.png)
+![Customer](assets/07-customer.png)
+![Software](assets/08-software.png)
+![Finance](assets/09-finance.png)
 
 </details>
 
----
+## Usage
 
-## الاستخدام
+[Download](https://github.com/ab1ob/barez-kpi-system/archive/refs/heads/master.zip), open `نظام_مؤشرات_الأداء_بارز.xlsx`, start from "Methodology" to understand the build, then the "Cockpit" for results. Adapt each department's metrics to your organization.
 
-[حمّل النظام](https://github.com/ab1ob/barez-kpi-system/archive/refs/heads/master.zip) وافتح `نظام_مؤشرات_الأداء_بارز.xlsx` — ابدأ من «المنهجية» لفهم طريقة البناء، ثم «لوحة القيادة» لرؤية النتائج. عدّل مؤشرات كل قسم بما يطابق منشأتك.
+## License
 
-## الرخصة
-
-MIT — استخدمه وعدّله بحرية.
-
----
+MIT — use and modify freely.
 
 <div align="center">
 
-[الصفحة الرئيسية](https://github.com/ab1ob) · [معرض الأعمال](https://github.com/ab1ob/portfolio)
-
-</div>
+[Home](https://github.com/ab1ob) · [Portfolio](https://github.com/ab1ob/portfolio)
 
 </div>
 
